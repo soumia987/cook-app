@@ -1,17 +1,20 @@
 import './App.css'
+import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
+import RecipesForm from './components/RecipesForm'
+
 
 function App() {
 
   return (
-    <>
-      <div className='text-red-600'>hello
-        
-        
-        
-      </div>
+    <> 
+<Navbar />
+<RecipesForm/>
+  <Footer />
+  </>
       
       
-    </>
+   
   )
 }
 
