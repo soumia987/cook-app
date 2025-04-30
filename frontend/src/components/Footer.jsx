@@ -4,7 +4,7 @@ import { HeartIcon } from '@heroicons/react/24/solid';
 const Footer = () => {
 
   return (
-    <footer className="bg-white py-6 shadow-inner">
+    <footer className="bg-black py-6 shadow-inner">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center justify-between gap-4 text-center md:flex-row">
           <p className="text-sm text-gray-600">
